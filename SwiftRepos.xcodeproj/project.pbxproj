@@ -7,10 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E60FE88A2D887B6A00926E10 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E60FE8892D887B6A00926E10 /* AppCoordinator.swift */; };
+		E60FE8962D887CE800926E10 /* SwiftRepoListCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E60FE88F2D887CE800926E10 /* SwiftRepoListCoordinator.swift */; };
+		E60FE8972D887CE800926E10 /* SwiftRepoListFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = E60FE8902D887CE800926E10 /* SwiftRepoListFactory.swift */; };
+		E60FE8982D887CE800926E10 /* SwiftRepoListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E60FE8912D887CE800926E10 /* SwiftRepoListPresenter.swift */; };
+		E60FE8992D887CE800926E10 /* SwiftRepoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E60FE8922D887CE800926E10 /* SwiftRepoListViewController.swift */; };
+		E60FE89A2D887CE800926E10 /* SwiftRepoListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E60FE8932D887CE800926E10 /* SwiftRepoListInteractor.swift */; };
+		E60FE89C2D887CE800926E10 /* SwiftRepoListService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E60FE8952D887CE800926E10 /* SwiftRepoListService.swift */; };
+		E6BD0B772D889B6700B3FC4D /* ViewCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6BD0B762D889B6200B3FC4D /* ViewCode.swift */; };
+		E6BD0B792D889BC700B3FC4D /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6BD0B782D889BBC00B3FC4D /* BaseViewController.swift */; };
+		E6BD1A202D88D63200B3FC4D /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6BD1A1F2D88D62600B3FC4D /* UIView+Extension.swift */; };
+		E6BD1A242D89032D00B3FC4D /* Servicing.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6BD1A232D89032C00B3FC4D /* Servicing.swift */; };
+		E6BD1A262D89033C00B3FC4D /* ApiEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6BD1A252D89033B00B3FC4D /* ApiEndpoint.swift */; };
+		E6BD1A282D89035000B3FC4D /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6BD1A272D89034F00B3FC4D /* Service.swift */; };
 		E6D854082D86238F00459012 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D854072D86238F00459012 /* AppDelegate.swift */; };
 		E6D8540A2D86238F00459012 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D854092D86238F00459012 /* SceneDelegate.swift */; };
-		E6D8540C2D86238F00459012 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D8540B2D86238F00459012 /* ViewController.swift */; };
-		E6D8540F2D86238F00459012 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = E6D8540E2D86238F00459012 /* Base */; };
 		E6D854112D86239100459012 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6D854102D86239100459012 /* Assets.xcassets */; };
 		E6D854142D86239100459012 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = E6D854132D86239100459012 /* Base */; };
 		E6D8541F2D86239100459012 /* SwiftReposTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D8541E2D86239100459012 /* SwiftReposTests.swift */; };
@@ -36,11 +47,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E60FE8892D887B6A00926E10 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		E60FE88F2D887CE800926E10 /* SwiftRepoListCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftRepoListCoordinator.swift; sourceTree = "<group>"; };
+		E60FE8902D887CE800926E10 /* SwiftRepoListFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftRepoListFactory.swift; sourceTree = "<group>"; };
+		E60FE8912D887CE800926E10 /* SwiftRepoListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftRepoListPresenter.swift; sourceTree = "<group>"; };
+		E60FE8922D887CE800926E10 /* SwiftRepoListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftRepoListViewController.swift; sourceTree = "<group>"; };
+		E60FE8932D887CE800926E10 /* SwiftRepoListInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftRepoListInteractor.swift; sourceTree = "<group>"; };
+		E60FE8952D887CE800926E10 /* SwiftRepoListService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftRepoListService.swift; sourceTree = "<group>"; };
+		E6BD0B762D889B6200B3FC4D /* ViewCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewCode.swift; sourceTree = "<group>"; };
+		E6BD0B782D889BBC00B3FC4D /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		E6BD1A1F2D88D62600B3FC4D /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		E6BD1A232D89032C00B3FC4D /* Servicing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Servicing.swift; sourceTree = "<group>"; };
+		E6BD1A252D89033B00B3FC4D /* ApiEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiEndpoint.swift; sourceTree = "<group>"; };
+		E6BD1A272D89034F00B3FC4D /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
 		E6D854042D86238F00459012 /* SwiftRepos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftRepos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6D854072D86238F00459012 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E6D854092D86238F00459012 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E6D8540B2D86238F00459012 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E6D8540E2D86238F00459012 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E6D854102D86239100459012 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E6D854132D86239100459012 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E6D854152D86239100459012 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -76,6 +98,80 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E60FE8862D88798100926E10 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				E6D854152D86239100459012 /* Info.plist */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		E60FE8872D8879AD00926E10 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E6D854102D86239100459012 /* Assets.xcassets */,
+				E6D854122D86239100459012 /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E60FE8882D8879C300926E10 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				E60FE88E2D887CAF00926E10 /* SwiftRepoList */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		E60FE88E2D887CAF00926E10 /* SwiftRepoList */ = {
+			isa = PBXGroup;
+			children = (
+				E60FE88F2D887CE800926E10 /* SwiftRepoListCoordinator.swift */,
+				E60FE8902D887CE800926E10 /* SwiftRepoListFactory.swift */,
+				E60FE8912D887CE800926E10 /* SwiftRepoListPresenter.swift */,
+				E60FE8922D887CE800926E10 /* SwiftRepoListViewController.swift */,
+				E60FE8932D887CE800926E10 /* SwiftRepoListInteractor.swift */,
+				E60FE8952D887CE800926E10 /* SwiftRepoListService.swift */,
+			);
+			path = SwiftRepoList;
+			sourceTree = "<group>";
+		};
+		E6BD0B742D88976200B3FC4D /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				E6BD1A1E2D88D62000B3FC4D /* Extensions */,
+				E6BD0B782D889BBC00B3FC4D /* BaseViewController.swift */,
+				E6BD0B762D889B6200B3FC4D /* ViewCode.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		E6BD1A1E2D88D62000B3FC4D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E6BD1A1F2D88D62600B3FC4D /* UIView+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		E6BD1A212D89030E00B3FC4D /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				E6BD1A272D89034F00B3FC4D /* Service.swift */,
+				E6BD1A222D89031A00B3FC4D /* Protocols */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		E6BD1A222D89031A00B3FC4D /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				E6BD1A252D89033B00B3FC4D /* ApiEndpoint.swift */,
+				E6BD1A232D89032C00B3FC4D /* Servicing.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
 		E6D853FB2D86238F00459012 = {
 			isa = PBXGroup;
 			children = (
@@ -99,13 +195,14 @@
 		E6D854062D86238F00459012 /* SwiftRepos */ = {
 			isa = PBXGroup;
 			children = (
+				E6BD1A212D89030E00B3FC4D /* Services */,
+				E6BD0B742D88976200B3FC4D /* Utils */,
+				E60FE8882D8879C300926E10 /* Modules */,
+				E60FE8872D8879AD00926E10 /* Resources */,
+				E60FE8862D88798100926E10 /* SupportingFiles */,
 				E6D854072D86238F00459012 /* AppDelegate.swift */,
 				E6D854092D86238F00459012 /* SceneDelegate.swift */,
-				E6D8540B2D86238F00459012 /* ViewController.swift */,
-				E6D8540D2D86238F00459012 /* Main.storyboard */,
-				E6D854102D86239100459012 /* Assets.xcassets */,
-				E6D854122D86239100459012 /* LaunchScreen.storyboard */,
-				E6D854152D86239100459012 /* Info.plist */,
+				E60FE8892D887B6A00926E10 /* AppCoordinator.swift */,
 			);
 			path = SwiftRepos;
 			sourceTree = "<group>";
@@ -233,7 +330,6 @@
 			files = (
 				E6D854112D86239100459012 /* Assets.xcassets in Resources */,
 				E6D854142D86239100459012 /* Base in Resources */,
-				E6D8540F2D86238F00459012 /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +354,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E6D8540C2D86238F00459012 /* ViewController.swift in Sources */,
+				E60FE88A2D887B6A00926E10 /* AppCoordinator.swift in Sources */,
 				E6D854082D86238F00459012 /* AppDelegate.swift in Sources */,
+				E6BD1A282D89035000B3FC4D /* Service.swift in Sources */,
 				E6D8540A2D86238F00459012 /* SceneDelegate.swift in Sources */,
+				E6BD1A262D89033C00B3FC4D /* ApiEndpoint.swift in Sources */,
+				E60FE8962D887CE800926E10 /* SwiftRepoListCoordinator.swift in Sources */,
+				E6BD1A242D89032D00B3FC4D /* Servicing.swift in Sources */,
+				E60FE8972D887CE800926E10 /* SwiftRepoListFactory.swift in Sources */,
+				E6BD0B792D889BC700B3FC4D /* BaseViewController.swift in Sources */,
+				E6BD1A202D88D63200B3FC4D /* UIView+Extension.swift in Sources */,
+				E60FE8982D887CE800926E10 /* SwiftRepoListPresenter.swift in Sources */,
+				E60FE8992D887CE800926E10 /* SwiftRepoListViewController.swift in Sources */,
+				E60FE89A2D887CE800926E10 /* SwiftRepoListInteractor.swift in Sources */,
+				E6BD0B772D889B6700B3FC4D /* ViewCode.swift in Sources */,
+				E60FE89C2D887CE800926E10 /* SwiftRepoListService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +405,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		E6D8540D2D86238F00459012 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E6D8540E2D86238F00459012 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		E6D854122D86239100459012 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -444,12 +544,11 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = Y72HNGSH66;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = SwiftRepos/Info.plist;
+				INFOPLIST_FILE = SwiftRepos/SupportingFiles/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -457,9 +556,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.fabiofranca.SwiftRepos;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -472,12 +575,11 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = Y72HNGSH66;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = SwiftRepos/Info.plist;
+				INFOPLIST_FILE = SwiftRepos/SupportingFiles/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -485,9 +587,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.fabiofranca.SwiftRepos;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
